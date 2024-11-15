@@ -7,11 +7,13 @@ resource "aws_instance" "slkec_2" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "aws_capstone"
+    Name = "team_1_slk_capstone"
   }
+
+  monitoring = true
 }
 
-resource "aws_s3_bucket" "slkbucket" {
-  bucket = "slkrefcap1"
+resource "aws_s3_bucket" "slkt1bucket" {
+  bucket = "rdspoh"
   acl    = "private"
 }
