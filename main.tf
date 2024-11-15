@@ -10,7 +10,6 @@ resource "aws_instance" "slkec_2" {
     Name = "team_1_slk_capstone"
   }
 
-  monitoring = true
 }
 
 resource "aws_s3_bucket" "slkt1bucket" {
