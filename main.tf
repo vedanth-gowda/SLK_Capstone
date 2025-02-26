@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"  # Change to the region that is required by your setup
+  region = "us-east-1" 
 }
 
 resource "aws_instance" "slkec_2" {
